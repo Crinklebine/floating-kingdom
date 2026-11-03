@@ -1,10 +1,10 @@
 # The Floating Kingdom
 
+**Live deployment → [crinklebine.github.io/floating-kingdom](https://crinklebine.github.io/floating-kingdom/)**
+
 ![The Floating Kingdom at golden hour](screenshot.png)
 
 *Golden hour over the three crowns — the live interface, not a mockup.*
-
-**Live site:** [crinklebine.github.io/floating-kingdom](https://crinklebine.github.io/floating-kingdom/)
 
 A hand-built voxel fantasy diorama: three crown-castles floating above a sea of clouds, a Japanese castle town, satellite kingdoms, dragons, waterfalls, weather and a full first-person-free camera — all in **one self-contained HTML file**.
 
