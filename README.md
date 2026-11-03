@@ -1,8 +1,13 @@
 # The Floating Kingdom
 
+![The Floating Kingdom at golden hour](screenshot.png)
+
+*Golden hour over the three crowns — the live interface, not a mockup.*
+
 A hand-built voxel fantasy diorama: three crown-castles floating above a sea of clouds, a Japanese castle town, satellite kingdoms, dragons, waterfalls, weather and a full first-person-free camera — all in **one self-contained HTML file**.
 
 - **File:** `index.html` (~254 KB)
+- **Hero screenshot:** `screenshot.png`
 - **Runtime:** Three.js r160 via an import map from `cdn.jsdelivr.net`
 - **Extra dependencies (JS):** none — Three.js post-processing addons come from the same Three.js package
 - **Fonts:** Shippori Mincho + Inter from Google Fonts, with local serif/sans fallbacks
@@ -88,7 +93,7 @@ Time presets, hour slider, day–night cycle, slow orbit, labels, planar reflect
 
 ## How it was made
 
-The project was authored as a development shell (`shell.html`) plus a module source (`src.js`), then flattened into the final `index.html` with the entire module inlined. Only `index.html` and this README remain.
+The project was authored as a development shell (`shell.html`) plus a module source (`src.js`), then flattened into the final `index.html` with the entire module inlined. The final project is `index.html`, `screenshot.png`, `LICENSE` and this README.
 
 1. **Layout and UI shell first.** The HTML/CSS defined the masthead, glass navigation, settings drawer, loading screen, labels, responsive breakpoints and the import map before any world geometry existed.
 2. **Voxel engine.** A chunked palette world, a face mesher with AO and jitter, and a small architecture vocabulary — `box`, `frame`, `hipRoof`, `gableRoof`, `stairsDown`, `cyl`, pagoda tiers, torii, trees, lanterns, bridge spans — made the castles and town buildable at scale.
