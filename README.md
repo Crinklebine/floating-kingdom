@@ -4,6 +4,8 @@
 
 *Golden hour over the three crowns — the live interface, not a mockup.*
 
+**Live site:** [crinklebine.github.io/floating-kingdom](https://crinklebine.github.io/floating-kingdom/)
+
 A hand-built voxel fantasy diorama: three crown-castles floating above a sea of clouds, a Japanese castle town, satellite kingdoms, dragons, waterfalls, weather and a full first-person-free camera — all in **one self-contained HTML file**.
 
 - **File:** `index.html` (~254 KB)
@@ -26,6 +28,16 @@ python3 -m http.server 8123
 ```
 
 Both `file://` and `http://` were tested. The first load needs an internet connection for the Three.js CDN and fonts; the scene itself is generated locally in JavaScript.
+
+## Deployment
+
+GitHub Pages is deployed **manually** via the `Deploy to GitHub Pages` workflow in `.github/workflows/deploy-pages.yml`. Trigger it from **Actions → Deploy to GitHub Pages → Run workflow**, or from the CLI:
+
+```bash
+gh workflow run deploy-pages.yml
+```
+
+The workflow builds a small static artifact containing `index.html` and `screenshot.png`, then publishes it through GitHub Pages.
 
 ### Controls
 
